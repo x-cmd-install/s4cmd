@@ -1,0 +1,526 @@
+- repo: nix_stable_24_05
+  srcname: s4cmd
+  visiblename: s4cmd
+  version: 2.1.0
+  origversion: null
+  status: newest
+  summary: Super S3 command line tool
+  maintainers:
+    - bhipple@protonmail.com
+  licenses:
+    - Apache-2.0
+- repo: nix_stable_24_11
+  srcname: s4cmd
+  visiblename: s4cmd
+  version: 2.1.0
+  origversion: null
+  status: newest
+  summary: Super S3 command line tool
+  maintainers:
+    - bhipple@protonmail.com
+  licenses:
+    - Apache-2.0
+- repo: nix_stable_25_05
+  srcname: s4cmd
+  visiblename: s4cmd
+  version: 2.1.0
+  origversion: null
+  status: newest
+  summary: Super S3 command line tool
+  maintainers:
+    - bhipple@protonmail.com
+  licenses:
+    - Apache-2.0
+- repo: nix_stable_25_11
+  srcname: s4cmd
+  visiblename: s4cmd
+  version: 2.1.0
+  origversion: null
+  status: newest
+  summary: Super S3 command line tool
+  maintainers:
+    - bhipple@protonmail.com
+  licenses:
+    - Apache-2.0
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: s4cmd
+  binnames:
+    - s4cmd
+  visiblename: s4cmd
+  version: 2.1.0
+  origversion: 2.1.0+ds-4
+  status: newest
+  maintainers:
+    - satta@debian.org
+  categories:
+    - misc
+- repo: pureos_amber
+  subrepo: amber/main
+  srcname: s4cmd
+  binnames:
+    - s4cmd
+  visiblename: s4cmd
+  version: 2.1.0
+  origversion: 2.1.0+ds-1
+  status: newest
+  maintainers:
+    - satta@debian.org
+  categories:
+    - utils
+- repo: pureos_byzantium
+  subrepo: byzantium/main
+  srcname: s4cmd
+  binnames:
+    - s4cmd
+  visiblename: s4cmd
+  version: 2.1.0
+  origversion: 2.1.0+ds-2
+  status: newest
+  maintainers:
+    - satta@debian.org
+  categories:
+    - utils
+- repo: aur
+  srcname: s4cmd-python3-git
+  binname: s4cmd-python3-git
+  visiblename: s4cmd-python3-git
+  version: 132.80059bf
+  origversion: 132.80059bf-3
+  status: rolling
+  summary: Super S3 command line tool (git) for Python 3
+  maintainers:
+    - apetresc@aur
+  licenses:
+    - GPL
+- repo: debian_11
+  subrepo: bullseye/main
+  srcname: s4cmd
+  binnames:
+    - s4cmd
+  visiblename: s4cmd
+  version: 2.1.0
+  origversion: 2.1.0+ds-2
+  status: newest
+  maintainers:
+    - satta@debian.org
+  categories:
+    - misc
+- repo: debian_12
+  subrepo: bookworm/main
+  srcname: s4cmd
+  binnames:
+    - s4cmd
+  visiblename: s4cmd
+  version: 2.1.0
+  origversion: 2.1.0+ds-2
+  status: newest
+  maintainers:
+    - satta@debian.org
+  categories:
+    - misc
+- repo: debian_13
+  subrepo: trixie/main
+  srcname: s4cmd
+  binnames:
+    - s4cmd
+  visiblename: s4cmd
+  version: 2.1.0
+  origversion: 2.1.0+ds-3
+  status: newest
+  maintainers:
+    - satta@debian.org
+  categories:
+    - misc
+- repo: debian_14
+  subrepo: forky/main
+  srcname: s4cmd
+  binnames:
+    - s4cmd
+  visiblename: s4cmd
+  version: 2.1.0
+  origversion: 2.1.0+ds-4
+  status: newest
+  maintainers:
+    - satta@debian.org
+  categories:
+    - misc
+- repo: debian_unstable
+  subrepo: sid/main
+  srcname: s4cmd
+  binnames:
+    - s4cmd
+  visiblename: s4cmd
+  version: 2.1.0
+  origversion: 2.1.0+ds-4
+  status: newest
+  maintainers:
+    - satta@debian.org
+  categories:
+    - misc
+- repo: deepin_unstable
+  subrepo: main
+  srcname: s4cmd
+  binnames:
+    - s4cmd
+  visiblename: s4cmd
+  version: 2.1.0
+  origversion: 2.1.0+ds-1
+  status: newest
+  maintainers:
+    - satta@debian.org
+- repo: deepin_25
+  subrepo: community
+  srcname: s4cmd
+  binnames:
+    - s4cmd
+  visiblename: s4cmd
+  version: 2.1.0
+  origversion: 2.1.0+ds-3
+  status: newest
+  maintainers:
+    - satta@debian.org
+  categories:
+    - misc
+- repo: devuan_4_0
+  subrepo: chimaera/main
+  srcname: s4cmd
+  binnames:
+    - s4cmd
+  visiblename: s4cmd
+  version: 2.1.0
+  origversion: 2.1.0+ds-2
+  status: newest
+  maintainers:
+    - satta@debian.org
+  categories:
+    - misc
+- repo: freebsd
+  srcname: net/py-s4cmd
+  binname: py312-s4cmd
+  visiblename: net/py-s4cmd
+  version: 2.1.0.11
+  origversion: 2.1.0.11_1
+  status: incorrect
+  summary: Command line client for S3 storage
+  maintainers:
+    - ehaupt@freebsd.org
+  categories:
+    - net
+- repo: gentoo
+  srcname: net-misc/s4cmd
+  visiblename: net-misc/s4cmd
+  version: 2.1.0
+  origversion: 2.1.0-r3
+  status: newest
+  summary: Super S3 command line tool
+  maintainers:
+    - robbat2@gentoo.org
+  licenses:
+    - GPL-2
+  categories:
+    - net-misc
+- repo: homebrew
+  srcname: s4cmd
+  visiblename: s4cmd
+  version: 2.1.0
+  origversion: null
+  status: newest
+  summary: Super S3 command-line tool
+- repo: homebrew
+  srcname: s4cmd
+  visiblename: s4cmd
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: Super S3 command-line tool
+- repo: kali_rolling
+  subrepo: main
+  srcname: s4cmd
+  binnames:
+    - s4cmd
+  visiblename: s4cmd
+  version: 2.1.0
+  origversion: 2.1.0+ds-4
+  status: newest
+  maintainers:
+    - satta@debian.org
+  categories:
+    - misc
+- repo: liguros_stable
+  srcname: net-misc/s4cmd
+  visiblename: net-misc/s4cmd
+  version: 2.1.0
+  origversion: 2.1.0-r3
+  status: newest
+  summary: Super S3 command line tool
+  maintainers:
+    - robbat2@gentoo.org
+  licenses:
+    - GPL-2
+  categories:
+    - net-misc
+- repo: liguros_develop
+  srcname: net-misc/s4cmd
+  visiblename: net-misc/s4cmd
+  version: 2.1.0
+  origversion: 2.1.0-r3
+  status: newest
+  summary: Super S3 command line tool
+  maintainers:
+    - robbat2@gentoo.org
+  licenses:
+    - GPL-2
+  categories:
+    - net-misc
+- repo: nix_stable_26_05
+  srcname: s4cmd
+  visiblename: s4cmd
+  version: 2.1.0
+  origversion: null
+  status: newest
+  summary: Super S3 command line tool
+  maintainers:
+    - fallback-mnt-nix@repology
+  licenses:
+    - Apache-2.0
+- repo: nix_unstable
+  srcname: s4cmd
+  visiblename: s4cmd
+  version: 2.1.0
+  origversion: null
+  status: newest
+  summary: Super S3 command line tool
+  maintainers:
+    - fallback-mnt-nix@repology
+  licenses:
+    - Apache-2.0
+- repo: pardus_21
+  subrepo: main
+  srcname: s4cmd
+  binnames:
+    - s4cmd
+  visiblename: s4cmd
+  version: 2.1.0
+  origversion: 2.1.0+ds-2
+  status: newest
+  maintainers:
+    - satta@debian.org
+  categories:
+    - misc
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: s4cmd
+  binnames:
+    - s4cmd
+  visiblename: s4cmd
+  version: 2.1.0
+  origversion: 2.1.0+ds-3
+  status: newest
+  maintainers:
+    - satta@debian.org
+  categories:
+    - misc
+- repo: parrot
+  subrepo: parrot/main
+  srcname: s4cmd
+  binnames:
+    - s4cmd
+  visiblename: s4cmd
+  version: 2.1.0
+  origversion: 2.1.0+ds-3
+  status: newest
+  maintainers:
+    - satta@debian.org
+  categories:
+    - misc
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: s4cmd
+  binnames:
+    - s4cmd
+  visiblename: s4cmd
+  version: 2.1.0
+  origversion: 2.1.0+ds-3
+  status: newest
+  maintainers:
+    - satta@debian.org
+  categories:
+    - utils
+- repo: pypi
+  srcname: s4cmd
+  binname: s4cmd
+  visiblename: s4cmd
+  version: 2.1.0
+  origversion: null
+  status: newest
+  summary: Super S3 command line tool
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: s4cmd
+  binnames:
+    - s4cmd
+  visiblename: s4cmd
+  version: 2.1.0
+  origversion: 2.1.0+ds-2
+  status: newest
+  maintainers:
+    - satta@debian.org
+  categories:
+    - misc
+- repo: raspbian_stable
+  subrepo: main
+  srcname: s4cmd
+  binnames:
+    - s4cmd
+  visiblename: s4cmd
+  version: 2.1.0
+  origversion: 2.1.0+ds-3
+  status: newest
+  maintainers:
+    - satta@debian.org
+  categories:
+    - misc
+- repo: raspbian_testing
+  subrepo: main
+  srcname: s4cmd
+  binnames:
+    - s4cmd
+  visiblename: s4cmd
+  version: 2.1.0
+  origversion: 2.1.0+ds-4
+  status: newest
+  maintainers:
+    - satta@debian.org
+  categories:
+    - misc
+- repo: trisquel_10_0
+  subrepo: nabia/main
+  srcname: s4cmd
+  binnames:
+    - s4cmd
+  visiblename: s4cmd
+  version: 2.1.0
+  origversion: 2.1.0+ds-2
+  status: newest
+  maintainers:
+    - satta@debian.org
+  categories:
+    - universe/misc
+- repo: trisquel_11_0
+  subrepo: aramo/main
+  srcname: s4cmd
+  binnames:
+    - s4cmd
+  visiblename: s4cmd
+  version: 2.1.0
+  origversion: 2.1.0+ds-2
+  status: newest
+  maintainers:
+    - satta@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_18_04
+  subrepo: bionic/universe
+  srcname: s4cmd
+  binnames:
+    - s4cmd
+  visiblename: s4cmd
+  version: 2.0.1
+  origversion: 2.0.1+ds-1
+  status: outdated
+  maintainers:
+    - satta@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_20_04
+  subrepo: focal/universe
+  srcname: s4cmd
+  binnames:
+    - s4cmd
+  visiblename: s4cmd
+  version: 2.1.0
+  origversion: 2.1.0+ds-2
+  status: newest
+  maintainers:
+    - satta@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_22_04
+  subrepo: jammy/universe
+  srcname: s4cmd
+  binnames:
+    - s4cmd
+  visiblename: s4cmd
+  version: 2.1.0
+  origversion: 2.1.0+ds-2
+  status: newest
+  maintainers:
+    - satta@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_24_04
+  subrepo: noble/universe
+  srcname: s4cmd
+  binnames:
+    - s4cmd
+  visiblename: s4cmd
+  version: 2.1.0
+  origversion: 2.1.0+ds-2
+  status: newest
+  maintainers:
+    - satta@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_25_04
+  subrepo: plucky/universe
+  srcname: s4cmd
+  binnames:
+    - s4cmd
+  visiblename: s4cmd
+  version: 2.1.0
+  origversion: 2.1.0+ds-3
+  status: newest
+  maintainers:
+    - satta@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_25_10
+  subrepo: questing/universe
+  srcname: s4cmd
+  binnames:
+    - s4cmd
+  visiblename: s4cmd
+  version: 2.1.0
+  origversion: 2.1.0+ds-3
+  status: newest
+  maintainers:
+    - satta@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_26_04
+  subrepo: resolute/universe
+  srcname: s4cmd
+  binnames:
+    - s4cmd
+  visiblename: s4cmd
+  version: 2.1.0
+  origversion: 2.1.0+ds-4
+  status: newest
+  maintainers:
+    - satta@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_26_10
+  subrepo: stonking/universe
+  srcname: s4cmd
+  binnames:
+    - s4cmd
+  visiblename: s4cmd
+  version: 2.1.0
+  origversion: 2.1.0+ds-4
+  status: newest
+  maintainers:
+    - satta@debian.org
+  categories:
+    - universe/misc
