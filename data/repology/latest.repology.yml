@@ -334,6 +334,92 @@
     - satta@debian.org
   categories:
     - utils
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: s4cmd
+  binnames:
+    - s4cmd
+  visiblename: s4cmd
+  version: 2.1.0
+  origversion: 2.1.0+ds-3
+  status: newest
+  maintainers:
+    - satta@debian.org
+  categories:
+    - utils
+- repo: pypi
+  srcname: s4cmd
+  binname: s4cmd
+  visiblename: s4cmd
+  version: 2.1.0
+  origversion: null
+  status: newest
+  summary: Super S3 command line tool
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: s4cmd
+  binnames:
+    - s4cmd
+  visiblename: s4cmd
+  version: 2.1.0
+  origversion: 2.1.0+ds-2
+  status: newest
+  maintainers:
+    - satta@debian.org
+  categories:
+    - misc
+- repo: raspbian_stable
+  subrepo: main
+  srcname: s4cmd
+  binnames:
+    - s4cmd
+  visiblename: s4cmd
+  version: 2.1.0
+  origversion: 2.1.0+ds-3
+  status: newest
+  maintainers:
+    - satta@debian.org
+  categories:
+    - misc
+- repo: raspbian_testing
+  subrepo: main
+  srcname: s4cmd
+  binnames:
+    - s4cmd
+  visiblename: s4cmd
+  version: 2.1.0
+  origversion: 2.1.0+ds-4
+  status: newest
+  maintainers:
+    - satta@debian.org
+  categories:
+    - misc
+- repo: ubuntu_18_04
+  subrepo: bionic/universe
+  srcname: s4cmd
+  binnames:
+    - s4cmd
+  visiblename: s4cmd
+  version: 2.0.1
+  origversion: 2.0.1+ds-1
+  status: outdated
+  maintainers:
+    - satta@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_20_04
+  subrepo: focal/universe
+  srcname: s4cmd
+  binnames:
+    - s4cmd
+  visiblename: s4cmd
+  version: 2.1.0
+  origversion: 2.1.0+ds-2
+  status: newest
+  maintainers:
+    - satta@debian.org
+  categories:
+    - universe/misc
 - repo: ubuntu_22_04
   subrepo: jammy/universe
   srcname: s4cmd
@@ -412,55 +498,8 @@
     - satta@debian.org
   categories:
     - universe/misc
-- repo: ubuntu_20_04
-  subrepo: focal/universe
-  srcname: s4cmd
-  binnames:
-    - s4cmd
-  visiblename: s4cmd
-  version: 2.1.0
-  origversion: 2.1.0+ds-2
-  status: newest
-  maintainers:
-    - satta@debian.org
-  categories:
-    - universe/misc
-- repo: pureos_landing
-  subrepo: landing/main
-  srcname: s4cmd
-  binnames:
-    - s4cmd
-  visiblename: s4cmd
-  version: 2.1.0
-  origversion: 2.1.0+ds-3
-  status: newest
-  maintainers:
-    - satta@debian.org
-  categories:
-    - utils
-- repo: pypi
-  srcname: s4cmd
-  binname: s4cmd
-  visiblename: s4cmd
-  version: 2.1.0
-  origversion: null
-  status: newest
-  summary: Super S3 command line tool
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: s4cmd
-  binnames:
-    - s4cmd
-  visiblename: s4cmd
-  version: 2.1.0
-  origversion: 2.1.0+ds-2
-  status: newest
-  maintainers:
-    - satta@debian.org
-  categories:
-    - misc
-- repo: raspbian_testing
-  subrepo: main
+- repo: ubuntu_27_04
+  subrepo: tenacious/universe
   srcname: s4cmd
   binnames:
     - s4cmd
@@ -471,30 +510,4 @@
   maintainers:
     - satta@debian.org
   categories:
-    - misc
-- repo: ubuntu_18_04
-  subrepo: bionic/universe
-  srcname: s4cmd
-  binnames:
-    - s4cmd
-  visiblename: s4cmd
-  version: 2.0.1
-  origversion: 2.0.1+ds-1
-  status: outdated
-  maintainers:
-    - satta@debian.org
-  categories:
     - universe/misc
-- repo: raspbian_stable
-  subrepo: main
-  srcname: s4cmd
-  binnames:
-    - s4cmd
-  visiblename: s4cmd
-  version: 2.1.0
-  origversion: 2.1.0+ds-3
-  status: newest
-  maintainers:
-    - satta@debian.org
-  categories:
-    - misc
