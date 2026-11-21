@@ -1,3 +1,23 @@
+- repo: homebrew
+  srcname: s4cmd
+  visiblename: s4cmd
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: Super S3 command-line tool
+- repo: kali_rolling
+  subrepo: main
+  srcname: s4cmd
+  binnames:
+    - s4cmd
+  visiblename: s4cmd
+  version: 2.1.0
+  origversion: 2.1.0+ds-4
+  status: newest
+  maintainers:
+    - satta@debian.org
+  categories:
+    - misc
 - repo: aur
   srcname: s4cmd-python3-git
   binname: s4cmd-python3-git
@@ -10,6 +30,17 @@
     - apetresc@aur
   licenses:
     - GPL
+- repo: nix_stable_24_05
+  srcname: s4cmd
+  visiblename: s4cmd
+  version: 2.1.0
+  origversion: null
+  status: newest
+  summary: Super S3 command line tool
+  maintainers:
+    - bhipple@protonmail.com
+  licenses:
+    - Apache-2.0
 - repo: debian_11
   subrepo: bullseye/main
   srcname: s4cmd
@@ -75,17 +106,6 @@
     - satta@debian.org
   categories:
     - misc
-- repo: deepin_unstable
-  subrepo: main
-  srcname: s4cmd
-  binnames:
-    - s4cmd
-  visiblename: s4cmd
-  version: 2.1.0
-  origversion: 2.1.0+ds-1
-  status: newest
-  maintainers:
-    - satta@debian.org
 - repo: deepin_25
   subrepo: community
   srcname: s4cmd
@@ -157,26 +177,6 @@
   origversion: null
   status: newest
   summary: Super S3 command-line tool
-- repo: homebrew
-  srcname: s4cmd
-  visiblename: s4cmd
-  version: HEAD
-  origversion: null
-  status: rolling
-  summary: Super S3 command-line tool
-- repo: kali_rolling
-  subrepo: main
-  srcname: s4cmd
-  binnames:
-    - s4cmd
-  visiblename: s4cmd
-  version: 2.1.0
-  origversion: 2.1.0+ds-4
-  status: newest
-  maintainers:
-    - satta@debian.org
-  categories:
-    - misc
 - repo: liguros_stable
   srcname: net-misc/s4cmd
   visiblename: net-misc/s4cmd
@@ -203,17 +203,6 @@
     - GPL-2
   categories:
     - net-misc
-- repo: nix_stable_24_05
-  srcname: s4cmd
-  visiblename: s4cmd
-  version: 2.1.0
-  origversion: null
-  status: newest
-  summary: Super S3 command line tool
-  maintainers:
-    - bhipple@protonmail.com
-  licenses:
-    - Apache-2.0
 - repo: nix_stable_24_11
   srcname: s4cmd
   visiblename: s4cmd
@@ -283,7 +272,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: s4cmd
   binnames:
     - s4cmd
@@ -296,7 +285,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: s4cmd
   binnames:
     - s4cmd
