@@ -7,7 +7,7 @@ about:
   latestVersion: ""
   latestRelease: ""
   latestPrerelease: ""
-  collectedAt: 2026-11-27T07:20:55Z
+  collectedAt: 2026-11-28T06:52:35Z
 timeline:
   created: 2012-11-10
   lastCommit: 2024-07-21
@@ -17,10 +17,10 @@ timeline:
 popularity:
   star: 1392
   watcher: 45
-  fork: 212
+  fork: 213
   release: 0
   contributor: 32
-  pullRequest: 176
+  pullRequest: 177
   issue: 146
 language:
   Python: 73417
@@ -28,63 +28,63 @@ language:
 totalBytes: 102208
 recent:
   last30d:
-    since: 2026-10-28
+    since: 2026-10-29
     release: 0
     mergedPR: 0
-    openPR: 0
+    openPR: 1
     closedIssue: 0
     openIssue: 0
     commit: 0
   last60d:
-    since: 2026-09-28
+    since: 2026-09-29
     release: 0
     mergedPR: 0
-    openPR: 0
+    openPR: 1
     closedIssue: 0
     openIssue: 0
     commit: 0
   last90d:
-    since: 2026-08-29
+    since: 2026-08-30
     release: 0
     mergedPR: 0
-    openPR: 0
+    openPR: 1
     closedIssue: 0
     openIssue: 0
     commit: 0
   last180d:
-    since: 2026-05-31
+    since: 2026-06-01
     release: 0
     mergedPR: 0
-    openPR: 0
+    openPR: 1
     closedIssue: 0
     openIssue: 0
     commit: 0
   last360d:
-    since: 2025-12-02
+    since: 2025-12-03
     release: 0
     mergedPR: 0
-    openPR: 0
+    openPR: 1
     closedIssue: 0
     openIssue: 0
     commit: 0
   last720d:
-    since: 2024-12-07
+    since: 2024-12-08
     release: 0
     mergedPR: 0
-    openPR: 0
+    openPR: 1
     closedIssue: 0
     openIssue: 3
     commit: 0
 total:
   release: 0
   mergedPR: 41
-  openPR: 25
+  openPR: 26
   closedIssue: 54
   openIssue: 92
   commit: 146
 ---
 path: /home/runner/.x-repo/github.com/bloomreach/s4cmd
-collectedAt: 2026-11-27T07:20:55Z
+collectedAt: 2026-11-28T06:52:36Z
 loc:
   Python:
     code: 1633
